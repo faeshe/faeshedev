@@ -1,0 +1,89 @@
+
+@import url(https://fonts.googleapis.com/css?family=Bubblegum+Sans);
+
+h1 {
+    	font-family: 'Bubblegum Sans';
+	font-size: 60px;
+    	color: #f75d04;
+}
+
+
+
+p {
+	font-family: verdana;
+	
+}
+
+li {
+	font-family: verdana;
+}
+
+body /*{
+	background-image: url("canvas.jpg");
+}*/
+
+
+/* these are link boxes */
+a.two:link, a:visited {
+	background-color: #000099;
+	color: white;
+	font-family: verdana;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+a.two:hover, a:active {
+	background-color: #639af2;
+	font-family: verdana;
+}
+/* these are underline mouseover links */
+
+a.one:link {
+	color:#000000;text-decoration:none;
+	font-family: verdana;
+}
+a.one:visited {
+	color:#808080;text-decoration:none;
+	font-family: verdana;}
+a.one:hover {
+	text-decoration:underline;
+	font-family: verdana;
+}
+/*handles the input=file type */
+.inputfilee {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfilee + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfilee:focus + label,
+.inputfilee + label:hover {
+    background-color: red;
+}
+
+.inputfilee + label {
+	cursor: pointer; /* "hand" cursor */
+}
+.inputfilee :focus + label {
+	outline: 1px dotted #000;
+	outline: -webkit-focus-ring-color auto 5px;
+}
+
+
+div {
+	width: 600px;
+}
+
+

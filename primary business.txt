@@ -1,0 +1,7 @@
+Primary Business Activity
+
+The pairing venues and musical acts  through an online service.
+
+What you will do:
+
+Develop interactive website that includes user profiles with images and sound, searchable database, secure login, secure transaction processing with creadit card and paypal type, automated transaction process, dynamic calendar, etc. You will develop the minimum viable product first, then update daily during beta testing period.
